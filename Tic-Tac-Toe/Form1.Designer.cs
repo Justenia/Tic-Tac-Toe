@@ -134,9 +134,10 @@ namespace Tic_Tac_Toe
             // 
             // btnNew
             // 
-            this.btnNew.Location = new System.Drawing.Point(381, 43);
+            this.btnNew.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNew.Location = new System.Drawing.Point(40, 349);
             this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(75, 23);
+            this.btnNew.Size = new System.Drawing.Size(75, 34);
             this.btnNew.TabIndex = 9;
             this.btnNew.Text = "New Game";
             this.btnNew.UseVisualStyleBackColor = true;
@@ -144,9 +145,10 @@ namespace Tic_Tac_Toe
             // 
             // btnEnd
             // 
-            this.btnEnd.Location = new System.Drawing.Point(381, 286);
+            this.btnEnd.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEnd.Location = new System.Drawing.Point(279, 349);
             this.btnEnd.Name = "btnEnd";
-            this.btnEnd.Size = new System.Drawing.Size(75, 23);
+            this.btnEnd.Size = new System.Drawing.Size(75, 34);
             this.btnEnd.TabIndex = 10;
             this.btnEnd.Text = "End Game";
             this.btnEnd.UseVisualStyleBackColor = true;
@@ -157,7 +159,7 @@ namespace Tic_Tac_Toe
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.ClientSize = new System.Drawing.Size(472, 360);
+            this.ClientSize = new System.Drawing.Size(401, 415);
             this.Controls.Add(this.btnEnd);
             this.Controls.Add(this.btnNew);
             this.Controls.Add(this.btnZ3);
