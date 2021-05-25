@@ -131,6 +131,7 @@ namespace Tic_Tac_Toe
             this.btnNew.TabIndex = 9;
             this.btnNew.Text = "New Game";
             this.btnNew.UseVisualStyleBackColor = true;
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // btnEnd
             // 
@@ -140,6 +141,7 @@ namespace Tic_Tac_Toe
             this.btnEnd.TabIndex = 10;
             this.btnEnd.Text = "End Game";
             this.btnEnd.UseVisualStyleBackColor = true;
+            this.btnEnd.Click += new System.EventHandler(this.btnEnd_Click);
             // 
             // Form1
             // 
