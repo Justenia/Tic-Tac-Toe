@@ -12,6 +12,9 @@ namespace Tic_Tac_Toe
 {
     public partial class Form1 : Form
     {
+        bool turn = true;
+        int turn_current = 0;
+
         public Form1()
         {
             InitializeComponent();

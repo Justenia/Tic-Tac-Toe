@@ -44,6 +44,7 @@ namespace Tic_Tac_Toe
             // 
             // btnX1
             // 
+            this.btnX1.Font = new System.Drawing.Font("Cambria", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnX1.Location = new System.Drawing.Point(40, 43);
             this.btnX1.Name = "btnX1";
             this.btnX1.Size = new System.Drawing.Size(104, 88);
@@ -53,6 +54,7 @@ namespace Tic_Tac_Toe
             // 
             // btnX2
             // 
+            this.btnX2.Font = new System.Drawing.Font("Cambria", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnX2.Location = new System.Drawing.Point(145, 43);
             this.btnX2.Name = "btnX2";
             this.btnX2.Size = new System.Drawing.Size(104, 88);
@@ -62,6 +64,7 @@ namespace Tic_Tac_Toe
             // 
             // btnX3
             // 
+            this.btnX3.Font = new System.Drawing.Font("Cambria", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnX3.Location = new System.Drawing.Point(250, 43);
             this.btnX3.Name = "btnX3";
             this.btnX3.Size = new System.Drawing.Size(104, 88);
@@ -71,6 +74,7 @@ namespace Tic_Tac_Toe
             // 
             // btnY1
             // 
+            this.btnY1.Font = new System.Drawing.Font("Cambria", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnY1.Location = new System.Drawing.Point(40, 132);
             this.btnY1.Name = "btnY1";
             this.btnY1.Size = new System.Drawing.Size(104, 88);
@@ -80,6 +84,7 @@ namespace Tic_Tac_Toe
             // 
             // btnY2
             // 
+            this.btnY2.Font = new System.Drawing.Font("Cambria", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnY2.Location = new System.Drawing.Point(145, 132);
             this.btnY2.Name = "btnY2";
             this.btnY2.Size = new System.Drawing.Size(104, 88);
@@ -89,6 +94,7 @@ namespace Tic_Tac_Toe
             // 
             // btnY3
             // 
+            this.btnY3.Font = new System.Drawing.Font("Cambria", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnY3.Location = new System.Drawing.Point(250, 132);
             this.btnY3.Name = "btnY3";
             this.btnY3.Size = new System.Drawing.Size(104, 88);
@@ -98,6 +104,7 @@ namespace Tic_Tac_Toe
             // 
             // btnZ1
             // 
+            this.btnZ1.Font = new System.Drawing.Font("Cambria", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnZ1.Location = new System.Drawing.Point(40, 221);
             this.btnZ1.Name = "btnZ1";
             this.btnZ1.Size = new System.Drawing.Size(104, 88);
@@ -107,6 +114,7 @@ namespace Tic_Tac_Toe
             // 
             // btnZ2
             // 
+            this.btnZ2.Font = new System.Drawing.Font("Cambria", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnZ2.Location = new System.Drawing.Point(145, 221);
             this.btnZ2.Name = "btnZ2";
             this.btnZ2.Size = new System.Drawing.Size(104, 88);
@@ -116,6 +124,7 @@ namespace Tic_Tac_Toe
             // 
             // btnZ3
             // 
+            this.btnZ3.Font = new System.Drawing.Font("Cambria", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnZ3.Location = new System.Drawing.Point(250, 221);
             this.btnZ3.Name = "btnZ3";
             this.btnZ3.Size = new System.Drawing.Size(104, 88);
