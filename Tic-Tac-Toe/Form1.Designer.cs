@@ -38,6 +38,8 @@ namespace Tic_Tac_Toe
             this.btnZ1 = new System.Windows.Forms.Button();
             this.btnZ2 = new System.Windows.Forms.Button();
             this.btnZ3 = new System.Windows.Forms.Button();
+            this.btnNew = new System.Windows.Forms.Button();
+            this.btnEnd = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnX1
@@ -47,6 +49,7 @@ namespace Tic_Tac_Toe
             this.btnX1.Size = new System.Drawing.Size(104, 88);
             this.btnX1.TabIndex = 0;
             this.btnX1.UseVisualStyleBackColor = true;
+            this.btnX1.Click += new System.EventHandler(this.btn_Click);
             // 
             // btnX2
             // 
@@ -55,6 +58,7 @@ namespace Tic_Tac_Toe
             this.btnX2.Size = new System.Drawing.Size(104, 88);
             this.btnX2.TabIndex = 1;
             this.btnX2.UseVisualStyleBackColor = true;
+            this.btnX2.Click += new System.EventHandler(this.btn_Click);
             // 
             // btnX3
             // 
@@ -63,6 +67,7 @@ namespace Tic_Tac_Toe
             this.btnX3.Size = new System.Drawing.Size(104, 88);
             this.btnX3.TabIndex = 2;
             this.btnX3.UseVisualStyleBackColor = true;
+            this.btnX3.Click += new System.EventHandler(this.btn_Click);
             // 
             // btnY1
             // 
@@ -71,6 +76,7 @@ namespace Tic_Tac_Toe
             this.btnY1.Size = new System.Drawing.Size(104, 88);
             this.btnY1.TabIndex = 3;
             this.btnY1.UseVisualStyleBackColor = true;
+            this.btnY1.Click += new System.EventHandler(this.btn_Click);
             // 
             // btnY2
             // 
@@ -79,6 +85,7 @@ namespace Tic_Tac_Toe
             this.btnY2.Size = new System.Drawing.Size(104, 88);
             this.btnY2.TabIndex = 4;
             this.btnY2.UseVisualStyleBackColor = true;
+            this.btnY2.Click += new System.EventHandler(this.btn_Click);
             // 
             // btnY3
             // 
@@ -87,6 +94,7 @@ namespace Tic_Tac_Toe
             this.btnY3.Size = new System.Drawing.Size(104, 88);
             this.btnY3.TabIndex = 5;
             this.btnY3.UseVisualStyleBackColor = true;
+            this.btnY3.Click += new System.EventHandler(this.btn_Click);
             // 
             // btnZ1
             // 
@@ -95,6 +103,7 @@ namespace Tic_Tac_Toe
             this.btnZ1.Size = new System.Drawing.Size(104, 88);
             this.btnZ1.TabIndex = 6;
             this.btnZ1.UseVisualStyleBackColor = true;
+            this.btnZ1.Click += new System.EventHandler(this.btn_Click);
             // 
             // btnZ2
             // 
@@ -103,6 +112,7 @@ namespace Tic_Tac_Toe
             this.btnZ2.Size = new System.Drawing.Size(104, 88);
             this.btnZ2.TabIndex = 7;
             this.btnZ2.UseVisualStyleBackColor = true;
+            this.btnZ2.Click += new System.EventHandler(this.btn_Click);
             // 
             // btnZ3
             // 
@@ -111,13 +121,34 @@ namespace Tic_Tac_Toe
             this.btnZ3.Size = new System.Drawing.Size(104, 88);
             this.btnZ3.TabIndex = 8;
             this.btnZ3.UseVisualStyleBackColor = true;
+            this.btnZ3.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // btnNew
+            // 
+            this.btnNew.Location = new System.Drawing.Point(381, 43);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(75, 23);
+            this.btnNew.TabIndex = 9;
+            this.btnNew.Text = "New Game";
+            this.btnNew.UseVisualStyleBackColor = true;
+            // 
+            // btnEnd
+            // 
+            this.btnEnd.Location = new System.Drawing.Point(381, 286);
+            this.btnEnd.Name = "btnEnd";
+            this.btnEnd.Size = new System.Drawing.Size(75, 23);
+            this.btnEnd.TabIndex = 10;
+            this.btnEnd.Text = "End Game";
+            this.btnEnd.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.ClientSize = new System.Drawing.Size(547, 360);
+            this.ClientSize = new System.Drawing.Size(472, 360);
+            this.Controls.Add(this.btnEnd);
+            this.Controls.Add(this.btnNew);
             this.Controls.Add(this.btnZ3);
             this.Controls.Add(this.btnZ2);
             this.Controls.Add(this.btnZ1);
@@ -127,6 +158,7 @@ namespace Tic_Tac_Toe
             this.Controls.Add(this.btnX3);
             this.Controls.Add(this.btnX2);
             this.Controls.Add(this.btnX1);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Tic Tac Toe ";
             this.ResumeLayout(false);
@@ -144,6 +176,8 @@ namespace Tic_Tac_Toe
         private System.Windows.Forms.Button btnZ1;
         private System.Windows.Forms.Button btnZ2;
         private System.Windows.Forms.Button btnZ3;
+        private System.Windows.Forms.Button btnNew;
+        private System.Windows.Forms.Button btnEnd;
     }
 }
 
