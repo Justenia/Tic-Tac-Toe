@@ -22,7 +22,11 @@ namespace Tic_Tac_Toe
 
         private void btn_Click(object sender, EventArgs e)
         {
-
+            Button button = (Button)sender;
+            if (turn)
+                button.Text = "X";
+            else
+                button.Text = "O";
         }
 
         private void btnNew_Click(object sender, EventArgs e)
