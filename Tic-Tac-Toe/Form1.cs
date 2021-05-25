@@ -27,6 +27,9 @@ namespace Tic_Tac_Toe
                 button.Text = "X";
             else
                 button.Text = "O";
+
+            turn = !turn;
+            button.Enabled = false;
         }
 
         private void btnNew_Click(object sender, EventArgs e)
