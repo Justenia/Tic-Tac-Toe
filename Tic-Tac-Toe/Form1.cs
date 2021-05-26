@@ -30,6 +30,7 @@ namespace Tic_Tac_Toe
 
             turn = !turn;
             button.Enabled = false;
+            turn_current++;
             checkWinner();
         }
 
