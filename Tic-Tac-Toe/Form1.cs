@@ -89,6 +89,9 @@ namespace Tic_Tac_Toe
 
         private void btnNew_Click(object sender, EventArgs e)
         {
+            turn = true;
+            turn_current = 0;
+
             btnX1.Enabled = true;
             btnX2.Enabled = true;
             btnX3.Enabled = true;
