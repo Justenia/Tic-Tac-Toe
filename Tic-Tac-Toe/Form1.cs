@@ -30,7 +30,6 @@ namespace Tic_Tac_Toe
 
             turn = !turn;
             button.Enabled = false;
-
             checkWinner();
         }
 
@@ -71,6 +70,11 @@ namespace Tic_Tac_Toe
                     Winner = "X";
 
                 MessageBox.Show(Winner + " Victory Belongs to You!", "Winner");
+            }
+            else
+            {
+                if(turn_current == 9)
+                    MessageBox.Show("It's a Draw!");
             }
         }
         private void disableButtons()
