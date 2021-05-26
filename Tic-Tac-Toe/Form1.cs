@@ -36,17 +36,29 @@ namespace Tic_Tac_Toe
 
         private void checkWinner()
         {
-            bool there_is_a_winner = false;
+            bool we_have_a_winner = false;
+
             //horizontal
             if ((btnX1.Text == btnX2.Text) && (btnX2.Text == btnX3.Text))
-                there_is_a_winner = true;
-            MessageBox.Show("You Win!");
-            if ((btnY1.Text == btnY2.Text) && (btnY2.Text == btnY3.Text))
-                there_is_a_winner = true;
-            MessageBox.Show("You Win!");
-            if ((btnZ1.Text == btnZ2.Text) && (btnZ2.Text == btnZ3.Text))
-                there_is_a_winner = true;
-            MessageBox.Show("You Win!");
+                we_have_a_winner = true;
+            else if ((btnY1.Text == btnY2.Text) && (btnY2.Text == btnY3.Text))
+                we_have_a_winner = true;
+            else if ((btnZ1.Text == btnZ2.Text) && (btnZ2.Text == btnZ3.Text))
+                we_have_a_winner = true;
+
+            //vertical
+            if ((btnX1.Text == btnY1.Text) && (btnY1.Text == btnZ1.Text))
+                we_have_a_winner = true;
+            else if ((btnX2.Text == btnY2.Text) && (btnY2.Text == btnZ2.Text))
+                we_have_a_winner = true;
+            else if ((btnX3.Text == btnY3.Text) && (btnY3.Text == btnZ3.Text))
+                we_have_a_winner = true;
+
+            //diagonal
+            if ((btnX1.Text == btnY2.Text) && (btnY2.Text == btnZ3.Text))
+                we_have_a_winner = true;
+            else if ((btnX3.Text == btnY2.Text) && (btnY2.Text == btnZ1.Text))
+                we_have_a_winner = true;
         }
 
 
