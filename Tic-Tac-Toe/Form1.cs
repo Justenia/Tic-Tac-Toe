@@ -62,7 +62,6 @@ namespace Tic_Tac_Toe
 
             if (we_have_a_winner)
             {
-                disableButtons();
 
                 String Winner = "";
                 if (turn)
@@ -109,7 +108,6 @@ namespace Tic_Tac_Toe
             btnZ1.Text = "";
             btnZ2.Text = "";
             btnZ3.Text = "";
-            btnNew.Enabled = true;
         }
 
         private void btnEnd_Click(object sender, EventArgs e)
