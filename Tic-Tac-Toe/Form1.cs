@@ -90,12 +90,31 @@ namespace Tic_Tac_Toe
 
         private void btnNew_Click(object sender, EventArgs e)
         {
+            btnX1.Enabled = true;
+            btnX2.Enabled = true;
+            btnX3.Enabled = true;
+            btnY1.Enabled = true;
+            btnY2.Enabled = true;
+            btnY3.Enabled = true;
+            btnZ1.Enabled = true;
+            btnZ2.Enabled = true;
+            btnZ3.Enabled = true;
 
+            btnX1.Text = "";
+            btnX2.Text = "";
+            btnX3.Text = "";
+            btnY1.Text = "";
+            btnY2.Text = "";
+            btnY3.Text = "";
+            btnZ1.Text = "";
+            btnZ2.Text = "";
+            btnZ3.Text = "";
+            btnNew.Enabled = true;
         }
 
         private void btnEnd_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }
