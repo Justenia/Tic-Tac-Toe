@@ -38,7 +38,6 @@ namespace Tic_Tac_Toe
         {
             bool we_have_a_winner = false;
 
-            //horizontal
             if ((btnX1.Text == btnX2.Text) && (btnX2.Text == btnX3.Text) && (!btnX1.Enabled))
                 we_have_a_winner = true;
             else if ((btnY1.Text == btnY2.Text) && (btnY2.Text == btnY3.Text) && (!btnY1.Enabled))
@@ -46,7 +45,6 @@ namespace Tic_Tac_Toe
             else if ((btnZ1.Text == btnZ2.Text) && (btnZ2.Text == btnZ3.Text) && (!btnZ1.Enabled))
                 we_have_a_winner = true;
 
-            //vertical
             else if ((btnX1.Text == btnY1.Text) && (btnY1.Text == btnZ1.Text) && (!btnX1.Enabled))
                 we_have_a_winner = true;
             else if ((btnX2.Text == btnY2.Text) && (btnY2.Text == btnZ2.Text) && (!btnX2.Enabled))
@@ -54,7 +52,6 @@ namespace Tic_Tac_Toe
             else if ((btnX3.Text == btnY3.Text) && (btnY3.Text == btnZ3.Text) && (!btnX3.Enabled))
                 we_have_a_winner = true;
 
-            //diagonal
             else if ((btnX1.Text == btnY2.Text) && (btnY2.Text == btnZ3.Text) && (!btnX1.Enabled))
                 we_have_a_winner = true;
             else if ((btnX3.Text == btnY2.Text) && (btnY2.Text == btnZ1.Text) && (!btnX3.Enabled))
