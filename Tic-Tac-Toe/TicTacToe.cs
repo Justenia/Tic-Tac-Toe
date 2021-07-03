@@ -59,7 +59,6 @@ namespace Tic_Tac_Toe
 
             if (we_have_a_winner)
             {
-
                 String Winner = "";
                 if (turn)
                     Winner = "O";
@@ -74,15 +73,6 @@ namespace Tic_Tac_Toe
                     MessageBox.Show("It's a Draw!");
             }
         }
-        private void disableButtons()
-        {
-            foreach (Control c in Controls)
-            {
-                Button button = (Button)c;
-                button.Enabled = false;
-            }
-        }
-
 
         private void btnNew_Click(object sender, EventArgs e)
         {
